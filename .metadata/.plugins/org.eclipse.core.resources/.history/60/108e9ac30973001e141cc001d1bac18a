@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <limits.h>
+#include <stdint.h>
+#include <stdlib.h>
+
+int main(void){
+	char c = 255;
+	if (c > 128)
+	{
+	 printf("This is unsigned number %d\n", c);
+	}
+	else
+	{
+	 printf("This is signed number %d\n", c);
+	}
+}
+

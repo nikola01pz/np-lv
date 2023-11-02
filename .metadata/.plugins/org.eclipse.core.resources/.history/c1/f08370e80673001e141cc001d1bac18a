@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <limits.h>
+#include <stdint.h>
+#include <stdlib.h>
+
+int main(void){
+	unsigned char ucVar1 = 128;
+	char cVar2 = 128;
+	char result = ucVar1 + cVar2;
+	printf("%d + %d = %d\n", ucVar1, cVar2, result);
+}
+

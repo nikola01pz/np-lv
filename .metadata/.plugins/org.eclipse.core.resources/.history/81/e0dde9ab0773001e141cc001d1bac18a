@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <limits.h>
+#include <stdint.h>
+#include <stdlib.h>
+
+int main(void){
+	int iVar1 = 2147483647;
+	int iVar2 = -2147483648;
+	char result = iVar1 - iVar2;
+	printf("%d - %d = %d\n", iVar1, iVar2, result);
+}
+

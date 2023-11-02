@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <limits.h>
+#include <stdint.h>
+#include <stdlib.h>
+
+int main(void){
+	float fNumber = 1.1;
+	double dNumber = 1.1;
+	if (fNumber == dNumber)
+	{
+	 printf("Float and Double are equal\n");
+	}
+	else
+	{
+	 printf("Float and Double are NOT equal\n");
+	}
+}
+
