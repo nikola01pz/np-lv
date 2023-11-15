@@ -1,79 +1,20 @@
-09:11:17 **** Rebuild of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
-gcc -o lv2 main.o 
-/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
-(.text+0x24): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-09:11:33 **** Incremental Build of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -o lv2 main.o 
-/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
-(.text+0x24): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-09:12:34 **** Incremental Build of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -o lv2 main.o 
-/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
-(.text+0x24): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-09:14:11 **** Incremental Build of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
-../main.c:8:15: error: initializer element is not constant
-    8 | char result = ucVar1 + cVar2;
-      |               ^~~~~~
-../main.c:9:8: error: expected declaration specifiers or ‘...’ before string constant
-    9 | printf("%d + %d = %d\n", ucVar1, cVar2, result);
-      |        ^~~~~~~~~~~~~~~~
-../main.c:9:26: error: expected declaration specifiers or ‘...’ before ‘ucVar1’
-    9 | printf("%d + %d = %d\n", ucVar1, cVar2, result);
-      |                          ^~~~~~
-../main.c:9:34: error: expected declaration specifiers or ‘...’ before ‘cVar2’
-    9 | printf("%d + %d = %d\n", ucVar1, cVar2, result);
-      |                                  ^~~~~
-../main.c:9:41: error: expected declaration specifiers or ‘...’ before ‘result’
-    9 | printf("%d + %d = %d\n", ucVar1, cVar2, result);
-      |                                         ^~~~~~
-09:14:38 **** Incremental Build of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
-gcc -o lv2 main.o 
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-09:20:08 **** Incremental Build of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
-gcc -o lv2 main.o 
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-09:25:29 **** Incremental Build of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
-gcc -o lv2 main.o 
-Info: Nothing to build for lv2
-09:40:27 **** Incremental Build of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
-gcc -o lv2 main.o 
-Info: Nothing to build for lv2
-Info: Nothing to build for lv2
-09:43:52 **** Incremental Build of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
-../main.c:25:1: error: expected identifier or ‘(’ before ‘}’ token
-   25 | }
-      | ^
-09:44:01 **** Incremental Build of configuration Debug for project lv2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
-gcc -o lv2 main.o 
+09:05:05 **** Incremental Build of configuration Debug for project lv7 ****
+make all 
+Building file: ../zad2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zad2.d" -MT"zad2.o" -o "zad2.o" "../zad2.c"
+In file included from ../zad2.c:3:
+../myString.h: In function ‘stringTrim’:
+../myString.h:14:7: warning: unused variable ‘newText’ [-Wunused-variable]
+   14 |  char newText[] = "";
+      |       ^~~~~~~
+Finished building: ../zad2.c
+ 
+Building target: lv7
+Invoking: GCC C Linker
+gcc  -o "lv7"  ./zad2.o   
+Finished building target: lv7
+ 
+09:05:09 **** Incremental Build of configuration Debug for project lv7 ****
+make all 
+make: Nothing to be done for 'all'.
