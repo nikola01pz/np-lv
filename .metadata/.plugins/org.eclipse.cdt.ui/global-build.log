@@ -1,20 +1,14 @@
-09:05:05 **** Incremental Build of configuration Debug for project lv7 ****
-make all 
-Building file: ../zad2.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zad2.d" -MT"zad2.o" -o "zad2.o" "../zad2.c"
-In file included from ../zad2.c:3:
-../myString.h: In function ‘stringTrim’:
-../myString.h:14:7: warning: unused variable ‘newText’ [-Wunused-variable]
-   14 |  char newText[] = "";
-      |       ^~~~~~~
-Finished building: ../zad2.c
- 
-Building target: lv7
-Invoking: GCC C Linker
-gcc  -o "lv7"  ./zad2.o   
-Finished building target: lv7
- 
-09:05:09 **** Incremental Build of configuration Debug for project lv7 ****
-make all 
-make: Nothing to be done for 'all'.
+Info: Nothing to build for lv8_cipher12
+Info: Nothing to build for lv8_cipher12
+09:35:05 **** Incremental Build of configuration Debug for project lv8_cipher12 ****
+Info: Internal Builder is used for build
+gcc -I/home/rtrk/Nikola_Istvanic/lv8_caesar12 -I/home/rtrk/Nikola_Istvanic/lv8_rot12 -O0 -g3 -Wall -c -fmessage-length=0 -o cipher.o ../cipher.c 
+gcc -L/home/rtrk/Nikola_Istvanic/lv8_caesar12/Debug -L/home/rtrk/Nikola_Istvanic/lv8_rot12/Debug -o lv8_cipher12 cipher.o -llv8_rot12 -ldl -llv8_caesar12 
+09:35:16 **** Incremental Build of configuration Debug for project lv8_cipher12 ****
+Info: Internal Builder is used for build
+gcc -I/home/rtrk/Nikola_Istvanic/lv8_caesar12 -I/home/rtrk/Nikola_Istvanic/lv8_rot12 -O0 -g3 -Wall -c -fmessage-length=0 -o cipher.o ../cipher.c 
+gcc -L/home/rtrk/Nikola_Istvanic/lv8_caesar12/Debug -L/home/rtrk/Nikola_Istvanic/lv8_rot12/Debug -o lv8_cipher12 cipher.o -llv8_rot12 -ldl -llv8_caesar12 
+09:36:03 **** Incremental Build of configuration Debug for project lv8_cipher12 ****
+Info: Internal Builder is used for build
+gcc -I/home/rtrk/Nikola_Istvanic/lv8_caesar12 -I/home/rtrk/Nikola_Istvanic/lv8_rot12 -O0 -g3 -Wall -c -fmessage-length=0 -o cipher.o ../cipher.c 
+gcc -L/home/rtrk/Nikola_Istvanic/lv8_caesar12/Debug -L/home/rtrk/Nikola_Istvanic/lv8_rot12/Debug -o lv8_cipher12 cipher.o -llv8_rot12 -ldl -llv8_caesar12 

@@ -11,9 +11,12 @@ int stringLength(char str[])
 
 void stringTrim(char str[])
 {
-	char newText[] = "";
-	int size = stringLength(str);
+    int count = 0;
 
-	printf("%d", size);
-	//printf("%s", newText);
+    for (int i = 0; str[i]; i++)
+        if (str[i] != ' ')
+            str[count++] = str[i];
+    str[count] = '\0';
+	printf("%d", count);
+	printf("\n%s", str);
 }

@@ -3,8 +3,8 @@
 #include "myString.h"
 
 int main(void) {
-	char text[] = "test text";
+	char text[] = "   test text";
 	//printf("%d", stringLength(text));
 
-	stringTrim(" test");
+	stringTrim(text);
 }
