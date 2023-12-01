@@ -424,3 +424,6 @@ java.lang.Exception: The project description file (.project) for 'lv8_cipher12' 
 !MESSAGE The project description file (.project) for 'lv8_cipher12' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2023-12-01 09:47:20.446
 !MESSAGE The project description file (.project) for 'lv8_rot12' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-01 09:53:47.207
+!MESSAGE Indexed 'test' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
